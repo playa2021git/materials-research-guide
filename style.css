@@ -17,3 +17,5 @@ main{max-width:1280px}.start{padding:38px 0 44px}h1 em{font-style:normal;color:v
 @media(max-width:700px){.prompt-pair{grid-template-columns:1fr}.gem-composer{padding:17px;border-radius:22px}.gem-composer .gem-message{font-size:18px}.photo-hint{padding:18px}.photo-hint p{font-size:18px}.photo-hint h3{font-size:23px}.gem-tools{display:none}}
 
 .prompt-vague .prompt-situation{font-size:17px;margin:0 0 12px;padding:12px;border-left:3px solid #b77721;background:#fffaf5}.prompt-vague blockquote{font-weight:700}
+
+.prompt-review-note{margin:0 0 4px;padding:18px 20px;border-left:4px solid #155eb0;background:#edf4fc;border-radius:8px;font-size:18px}.prompt-review-note b{display:block;margin-bottom:6px}
