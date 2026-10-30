@@ -1,16 +1,25 @@
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="中学1年・材料の組み合わせ探究。Googleスライド制作のシンプルな手引き。"><title>材料の組み合わせ探究｜生徒用マニュアル</title><link rel="stylesheet" href="style.css"></head>
+<meta name="description" content="中学1年・材料の組み合わせ探究。Googleスライド制作のシンプルな手引き。"><title>材料の組み合わせ探究｜生徒用マニュアル</title><link rel="stylesheet" href="style.css?v=20261030-four-boxes"><style>
+/* Keep the first-view overview with its HTML so cached CSS cannot hide the four boxes. */
+.start .slide-overview{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px;margin:24px 0 28px}
+.start .slide-card{position:relative;display:flex;flex-direction:column;justify-content:flex-start;aspect-ratio:1/1;min-height:0;padding:20px 16px;border:3px solid #39745e;border-radius:12px;background:#fff;text-decoration:none;box-shadow:0 5px 0 #e5eee7}
+.start .slide-card:nth-child(2){border-color:#155eb0}.start .slide-card:nth-child(3){border-color:#b77721}.start .slide-card:nth-child(4){border-color:#8561a6}
+.start .slide-card:not(:last-child)::after{content:'→';position:absolute;right:-31px;top:50%;transform:translateY(-50%);font-size:28px;font-weight:900;color:#163a35}
+.start .slide-number{font-size:40px;line-height:1;display:flex;align-items:baseline;gap:6px;font-weight:900}.start .slide-number small{font-size:14px}
+.start .slide-card h2{font-size:clamp(20px,2.1vw,27px);line-height:1.4;margin:18px 0 10px}.start .slide-card p{font-size:16px;margin:0 0 16px;line-height:1.6}.start .card-link{font-size:13px;margin-top:auto}
+@media(max-width:700px){.start .slide-overview{gap:14px}.start .slide-card{padding:12px 6px;aspect-ratio:auto;min-height:210px;border-width:2px;border-radius:7px}.start .slide-number{font-size:28px;display:block}.start .slide-number small{display:block;font-size:10px;margin-top:5px}.start .slide-card h2{font-size:14px;margin:12px 0 8px;overflow-wrap:anywhere}.start .slide-card p{font-size:11px;margin-bottom:10px}.start .card-link{font-size:10px}.start .slide-card:not(:last-child)::after{right:-15px;font-size:15px}}
+</style></head>
 <body><header><strong>材料の組み合わせ探究</strong><a href="#pages">4ページを見る ↓</a></header>
 <main>
 <section class="start" aria-labelledby="overview-title"><span class="eyebrow">1年 技術｜制作30分</span>
 <h1 id="overview-title">作るスライドは、<em>4枚！</em></h1>
-<p class="hero-main">「調べる → 考える → 提案する → 確かめる」の順で作ろう。</p>
-<div class="slide-overview">
-<a class="slide-card" href="#slide1"><span class="slide-number">01 <small>1ページ目</small></span><h2>製品と材料を<br>紹介しよう</h2><p>2つ以上の材料を組み合わせて作られている、<b>実際にある製品の写真</b>を用意。</p><p class="card-task">書くのは<b>タイトル・名前・素材名だけ！</b></p><span class="card-link">詳しく見る ↓</span></a>
-<a class="slide-card" href="#slide2"><span class="slide-number">02 <small>2ページ目</small></span><h2>なぜ、この<br>組み合わせ？</h2><p>その製品は、なぜその材料を組み合わせているのだろう？</p><p class="card-task"><b>自分で考えた理由</b>を書こう！</p><span class="card-link">詳しく見る ↓</span></a>
-<a class="slide-card" href="#slide3"><span class="slide-number">03 <small>3ページ目</small></span><h2>もっとよい<br>材料を提案！</h2><p>「この材料を組み合わせた方がよくない？」を考えよう。</p><p class="card-task"><b>提案・その理由・AI生成画像</b>で紹介！</p><span class="card-link">詳しく見る ↓</span></a>
-<a class="slide-card" href="#slide4"><span class="slide-number">04 <small>4ページ目</small></span><h2>その提案、<br>本当に有効？</h2><p>3ページ目の組み合わせが本当に役立つのか、AIに聞いてみよう。</p><p class="card-task"><b>AIに聞いた結果と、自分の考え</b>を書こう！</p><span class="card-link">詳しく見る ↓</span></a>
+<p class="hero-main">この4枚を、左から順に作ろう。</p>
+<div class="slide-overview" aria-label="4枚のスライドの流れ">
+<a class="slide-card" href="#slide1"><span class="slide-number">1<small>ページ目</small></span><h2>タイトル</h2><p>製品写真・名前・素材名</p><span class="card-link">詳しく見る ↓</span></a>
+<a class="slide-card" href="#slide2"><span class="slide-number">2<small>ページ目</small></span><h2>考察</h2><p>なぜ、この材料なのか？<br>自分で考えた理由</p><span class="card-link">詳しく見る ↓</span></a>
+<a class="slide-card" href="#slide3"><span class="slide-number">3<small>ページ目</small></span><h2>自分で考えた<br>素材の組み合わせ</h2><p>提案と理由＋AI生成画像</p><span class="card-link">詳しく見る ↓</span></a>
+<a class="slide-card" href="#slide4"><span class="slide-number">4<small>ページ目</small></span><h2>AIツッコミを<br>考察</h2><p>AIの指摘を受けて<br>自分はどう考えた？</p><span class="card-link">詳しく見る ↓</span></a>
 </div>
 <div class="status"><span>①② 全員必須</span><span>③④ 余裕があれば挑戦</span><span>成績評価の対象</span></div>
 <a href="#pages" class="action">見本と詳しい説明を見る ↓</a></section>
