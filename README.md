@@ -30,7 +30,7 @@ GitHub Pagesの公開設定は `main` ブランチのルート `/` を使用し�
 ## ファイル
 
 - `index.html`：生徒向け本文と先生の見本スライド
-- `examples/teacher-slide-1.png` ～ `teacher-slide-4.png`：提供された「2026材料学習のまとめお手本.pdf」の各ページを、そのまま画像化した見本（1920×1080）
+- `examples/teacher-slide-latest-1.png` ～ `teacher-slide-latest-4.png`：提供された「最新版2026材料学習のまとめお手本.pdf」の各ページを、そのまま画像化した見本（1920×1080）
 - `style.css`：画面・スマートフォン・印刷用の表示
 - `script.js`：印刷ボタン
 - `.nojekyll`：GitHub Pagesで静的ファイルをそのまま公開
